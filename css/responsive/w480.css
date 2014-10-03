@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+	nav ul li a {
+		font-size: 8px;
+		padding: 18px 5px 0px 8px;
+	}
+
+	#marqueespace {
+		width: 100%;
+	}
+
+	#maincontent {
+		width: 100%;
+	}
+
+	#content {
+		width: 100%;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	#content aside {
+		display: none;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	section > img {
+		width: 100%;
+		height: auto;
+	}
+
+	section article {
+		width: 100%;
+	}
+
+	section article img {
+		width: 40%;
+		height: auto;
+		margin: 0px 25px 0 0;
+	}
+
+	section article p {
+		width: 50%;
+	}
+
+	footer {
+		width: 100%;
+	}
+}

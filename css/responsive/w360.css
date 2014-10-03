@@ -1,0 +1,30 @@
+@media screen and (max-width: 360px) {
+	nav ul li a {
+		font-size: 5px;
+	}
+
+	#marqueespace {
+		height: 10px;
+	}
+
+	#navspace {
+		padding: 0 10px;
+	}
+
+	#describe {
+		width: 100% !important;
+	}
+
+	#describe > div {
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	section article p {
+		float: right;
+	}
+
+	section article p:last-child {
+		float: left;
+	}
+}

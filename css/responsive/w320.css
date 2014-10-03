@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+	nav ul li a {
+		font-size: 4px;
+	}
+
+	section article img {
+		width: 39%;
+	}
+}

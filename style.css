@@ -1,0 +1,431 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/index01_01.gif);
+	background-repeat: repeat-x;
+	background-color: #ECE3DC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9C0000;
+}
+
+figure{
+	border: 0px;
+}
+
+h6, h4, h5 {
+	margin: 0px;
+	padding: 0px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+h5 {
+	font-size: 120%;
+}
+
+h5.club-med {
+	background-image: url(images/club-med.jpg);
+	background-repeat: no-repeat;
+	height: 137px;
+	width: 414px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.enjoy-malaysia {
+	background-image: url(images/enj2.jpg);
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 414px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-china {
+	background-image: url(images/TITLE-CHINA.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-asean {
+	background-image: url(images/TITLE-ASEAN.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-aussie {
+	background-image: url(images/TITLE-AUSTRALIA.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-nz {
+	background-image: url(images/TITLE-ZEALAND.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-asia {
+	background-image: url(images/TITLE-ASIA.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-gem {
+	background-image: url(images/TITLE-GEM.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5.tour-p-jpn {
+	background-image: url(images/banner-jpn.jpg);
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 423px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h6 {
+	font-size: 110%;
+}
+
+h6.tour-p-jpn-idp {
+	background-image: url(images/indp-depart.gif);
+	background-repeat: no-repeat;
+	height: 27px;
+	width: 321px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+h6.tour-p-jpn-grp {
+	background-image: url(images/grp-depart.gif);
+	background-repeat: no-repeat;
+	height: 27px;
+	width: 321px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+h6.tour-p-jpn-price {
+	background-image: url(images/prc-list.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 244px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.linespace {
+	padding: 10px;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+/*----header----*/
+header {
+	width: 748px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 9px;
+	padding-left: 17px;
+	padding-right: 14px;
+	padding-bottom: 10px;
+	background-image: url(images/banner-1.jpg);
+	background-repeat: no-repeat;
+}
+
+/*----nav----*/
+nav {
+	width: 769px;
+	height: 44px;
+	margin: 0px auto;
+} 
+
+nav ul{
+	height:44px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	background-color: #000;
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-webkit-border: 0px 0px 8px 8px;
+	
+	background-color: #000; background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+	background-image: -webkit-linear-gradient(top, #000, #666);
+	background-image: -moz-linear-gradient(top, #000, #666);
+	background-image: -ms-linear-gradient(top, #000, #666);
+	background-image: -o-linear-gradient(top, #000, #666);
+	background-image: linear-gradient(to bottom, #000, #666);filter:		progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#666);	
+}
+
+nav ul li{height:29px; float:left;}
+nav ul li a{
+	display:block;
+	color:#ffffff;
+	font-size:11px;
+	text-decoration:none;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 15px;
+	height: 30px;
+	font-family: verdana, "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+#navspace {
+	background-image: url(images/index01_04.jpg);
+	height: 28px;
+	width: 769px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+nav ul li a.blinkonoff {
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#my_menu a {
+	float: left;
+	padding: 8px 12px;
+	margin: 0px 4px;
+	background-color: #d7f1ff;
+}
+#maincontent {
+	width: 768px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+#content {
+	width: 743px;
+	background-color: #D6C0AF;
+	border-radius:5px;
+	padding-top: 12px;
+	padding-left: 8px;
+	padding-right: 17px;
+	padding-bottom: 17px;
+	float: left;
+}
+
+/*---- aside ----*/
+aside {
+	width: 217px;
+	background-color: #E2D3C7;
+	border-radius:5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin: 0px;
+	float: left;	
+	display: block;
+}
+
+aside article{
+	background-image: url(images/Untitled-2.jpg);
+	background-repeat: no-repeat;
+	width: 210px;
+	background-position: -20px top;
+	padding-bottom: 10px;
+}
+
+aside article span{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+aside article a.booknow {
+	background-image: url(images/book.gif);
+	background-repeat: no-repeat;
+	height: 23px;
+	width: 95px;
+	text-indent: -2000px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*---- section ----*/
+
+section {
+	float: left;
+	width: 490px;
+	margin: 0px;
+	display: block;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+section h2{
+	background-image: url(images/index01_30.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 144px;
+	text-indent: -2000px;
+}
+
+section article {
+	width: 490px;
+	margin: 0px;
+	padding: 0px;
+}
+section article img{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+section article p{
+	float: left;
+	width: 260px;
+	margin-left: 8px;
+	margin-top: 0px;
+	color: #333;
+}
+
+section article p a{
+	color: #0000FF;
+	text-decoration: none;
+}
+section article p a:hover {
+	border-bottom: 1px dotted #FF0000;
+}
+section article p a.readmore{
+	color: #0000FF;
+	text-decoration: none;
+}
+
+section article p a.readmore:hover {
+	border-bottom: 1px dotted #000;
+}
+section article ul {
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+section article ul li {
+	list-style-position: inside;
+	list-style-image: url(images/arrow2.gif);
+}
+
+section article ul li a{
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: #0000FF;
+	text-decoration: none;
+	display: inline;
+}
+
+section article ul li a:hover{
+	border-bottom: 1px dotted #0000ff;
+}
+
+#marqueespace {
+	height: 50px;
+	width: 769px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+/*---- footer ----*/
+footer{
+	width: 769px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: both;
+	padding-top: 40px;
+}
+
+footer p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	text-align: center;
+}
+
+/*---- table ----*/
+table {
+	width: 100%;
+}
