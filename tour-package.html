@@ -12,7 +12,61 @@
 
 </head>
 <body>
-  <nav>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">GEM TRAVEL</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="upload/GEM-PROFILE-2012.pdf" target="_blank">About Us</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Offers <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="enjoy-malaysia.html">Enjoy Malaysia</a></li>
+              <li class="divider"></li>
+              <li><a href="tour-package.html#jal">Jal Select</a></li>
+              <li class="divider"></li>
+              <li><a href="tour-package.html">Tour Packages</a></li>
+              <li class="divider"></li>
+              <li><a href="upload/pdf/New Zealand Brochure 2013.pdf" target="_blank">This is New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cruises <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="upload/pdf/RCI-Asia Cruises2013-14 Final text.pdf" target="_blank">Itineraries</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="upload/pdf/RCI-Asia Cruises2013-14 cvr.pdf" target="_blank">Terms &amp; Conditions</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="http://www.gem-travel.com.my/gemisland" target="_blank">Gem Island Resort &amp; Spa</a></li>
+          <li><a href="club-med.html">club med</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+        
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <nav class="main-nav">
     <ul>
      <li><a href="index.html">Home</a></li>
      <li><a href="upload/GEM-PROFILE-2012.pdf" target="_blank">about us</a></li>
@@ -101,7 +155,7 @@ function contains_ns6(a, b) {
   </aside>
 
   <section>
-    
+
     <article>
       <h5 class="tour-p-china"></h5>
       <ul>
@@ -196,7 +250,7 @@ function contains_ns6(a, b) {
     <li><a href="upload/pdf/7TOK-eng.pdf" target="_blank">7 Days 5 Nights World Heritage of Tohoku</a> </li>
   </ul>
   <h6 class="tour-p-jpn-price"></h6>
-  <IMG SRC="images/price-list.gif" WIDTH=456 HEIGHT=561 ALT="">
+  <IMG class="tour-img" SRC="images/price-list.gif" WIDTH=456 HEIGHT=561 ALT="">
   </article>	
 </section>
 </div>
@@ -204,5 +258,7 @@ function contains_ns6(a, b) {
 <footer>
   <p>Copyrighted &copy; by 2013 Gem Travel &amp; Tours Sdn. Bhd. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved</p>
 </footer>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

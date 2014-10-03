@@ -2,8 +2,8 @@
 <html>
 <head>
 
-<TITLE>GEM TRAVEL &amp; TOURS SDN. BHD. | CLUB MED</TITLE>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <TITLE>GEM TRAVEL &amp; TOURS SDN. BHD. | CLUB MED</TITLE>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/responsive/all.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/responsive/w768.css" media="(max-width: 768px)">
@@ -14,23 +14,77 @@
 
 </head>
 <body>
-<nav>
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="upload/GEM-PROFILE-2012.pdf" target="_blank">about us</a></li>
-	<li><a href="#" class="blinkonoff" onMouseOver="showit(0); return true;" onMouseOut="return true;">offers</a></li>
-	<li><a href="#" onMouseOver="showit(1); return true;" onMouseOut="return true;">cruises</a></li>
-	<li><a href="http://www.gem-travel.com.my/gemisland" target="_blank">gem island resort & spa</a></li>
-	<li><a href="club-med.html">club med</a></li>
-	<li><a href="contact.html">contact us</a></li>
-</ul>
-</nav>
-<div id="navspace">
-<ilayer width="769" height="11" name="dep1">
-      <layer name="dep2" width="769" height="10"></layer>
-      </ilayer>
-        <div id="describe" style="width:769px;height:11px;" onMouseOver="clear_delayhide()" onMouseOut="resetit(event)"></div>
-      <script language="JavaScript1.2" type="text/javascript">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">GEM TRAVEL</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="upload/GEM-PROFILE-2012.pdf" target="_blank">About Us</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Offers <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="enjoy-malaysia.html">Enjoy Malaysia</a></li>
+              <li class="divider"></li>
+              <li><a href="tour-package.html#jal">Jal Select</a></li>
+              <li class="divider"></li>
+              <li><a href="tour-package.html">Tour Packages</a></li>
+              <li class="divider"></li>
+              <li><a href="upload/pdf/New Zealand Brochure 2013.pdf" target="_blank">This is New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cruises <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="upload/pdf/RCI-Asia Cruises2013-14 Final text.pdf" target="_blank">Itineraries</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="upload/pdf/RCI-Asia Cruises2013-14 cvr.pdf" target="_blank">Terms &amp; Conditions</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="http://www.gem-travel.com.my/gemisland" target="_blank">Gem Island Resort &amp; Spa</a></li>
+          <li><a href="club-med.html">club med</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+        
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <nav class="main-nav">
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="upload/GEM-PROFILE-2012.pdf" target="_blank">about us</a></li>
+     <li><a href="#" class="blinkonoff" onMouseOver="showit(0); return true;" onMouseOut="return true;">offers</a></li>
+     <li><a href="#" onMouseOver="showit(1); return true;" onMouseOut="return true;">cruises</a></li>
+     <li><a href="http://www.gem-travel.com.my/gemisland" target="_blank">gem island resort & spa</a></li>
+     <li><a href="club-med.html">club med</a></li>
+     <li><a href="contact.html">contact us</a></li>
+   </ul>
+ </nav>
+ <div id="navspace">
+  <ilayer width="769" height="11" name="dep1">
+    <layer name="dep2" width="769" height="10"></layer>
+  </ilayer>
+  <div id="describe" style="width:769px;height:11px;" onMouseOver="clear_delayhide()" onMouseOut="resetit(event)"></div>
+  <script language="JavaScript1.2" type="text/javascript">
 
 /*
 Tabs Menu (mouseover)- By Dynamic Drive
@@ -41,7 +95,7 @@ This credit MUST stay intact for use
 var submenu=new Array()
 
 //Set submenu contents. Expand as needed. For each content, make sure everything exists on ONE LINE. Otherwise, there will be JS errors.
- 
+
 submenu[0]='<div style="width:720px;height:5px;"><font size="2" face="century gothic" weight="bold" color="#000000"><b> <a href="enjoy-malaysia.html" style="text-decoration:none; color:#000000">Enjoy Malaysia</a>&nbsp;|&nbsp;<a href="tour-package.html#jal" style="text-decoration:none; color:#000000">Jal Select</a>&nbsp;|&nbsp;<a href="tour-package.html" style="text-decoration:none; color:#000000">Tour Packages</a>&nbsp;|&nbsp;<a href="upload/pdf/New Zealand Brochure 2013.pdf"  target="_blank" style="text-decoration:none; color:#000000">This is New Zealand</a> </b></font></div>'
 
 submenu[1]='<div style="width:720px;height:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2" face="century gothic" weight="bold" color="#000000"><b> <a href="upload/pdf/RCI-Asia Cruises2013-14 Final text.pdf" target="_blank" style="text-decoration:none; color:#000000">Itineraries</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="upload/pdf/RCI-Asia Cruises2013-14 cvr.pdf" target="_blank" style="text-decoration:none; color:#000000">Terms & Conditions</a></b></font>&nbsp;&nbsp;&nbsp;&nbsp;</div>'
@@ -53,107 +107,109 @@ var delay_hide=3
 var menuobj=document.getElementById? document.getElementById("describe") : document.all? document.all.describe : document.layers? document.dep1.document.dep2 : ""
 
 function showit(which){
-clear_delayhide()
-thecontent=(which==-1)? "" : submenu[which]
-if (document.getElementById||document.all)
-menuobj.innerHTML=thecontent
-else if (document.layers){
-menuobj.document.write(thecontent)
-menuobj.document.close()
-}
+  clear_delayhide()
+  thecontent=(which==-1)? "" : submenu[which]
+  if (document.getElementById||document.all)
+    menuobj.innerHTML=thecontent
+  else if (document.layers){
+    menuobj.document.write(thecontent)
+    menuobj.document.close()
+  }
 }
 
 function resetit(e){
-if (document.all&&!menuobj.contains(e.toElement))
-delayhide=setTimeout("showit(-1)",delay_hide)
-else if (document.getElementById&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
-delayhide=setTimeout("showit(-1)",delay_hide)
+  if (document.all&&!menuobj.contains(e.toElement))
+    delayhide=setTimeout("showit(-1)",delay_hide)
+  else if (document.getElementById&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+    delayhide=setTimeout("showit(-1)",delay_hide)
 }
 
 function clear_delayhide(){
-if (window.delayhide)
-clearTimeout(delayhide)
+  if (window.delayhide)
+    clearTimeout(delayhide)
 }
 
 function contains_ns6(a, b) {
-while (b.parentNode)
-if ((b = b.parentNode) == a)
-return true;
-return false;
-}
+  while (b.parentNode)
+    if ((b = b.parentNode) == a)
+      return true;
+    return false;
+  }
 
-      </script>
-	  </div>
+</script>
+</div>
 <header>
-<IMG SRC="images/banner-main_05.jpg" ALT="" />
+  <IMG SRC="images/banner-main_05.jpg" ALT="" />
 </header>
 
 <div id="marqueespace"></div>
 <div id="maincontent">
-<div id="content">
-<aside>
-<article>
-<h4>Flight Bookings </h4>
-<a href="http://www.plusibe.com/IBESTDWeb/FlightSearch_C.aspx?SC=KULMY28H2" class="booknow" target="_blank">booknow</a><span>or Call us <br>
-+60377279287 <br>
-</span> <br>
-			  
-</article>			  
-<a href="http://gbs.gta-travel.com/fe/enter.jsp?siteid=gemtr" target="_blank"><IMG SRC="images/hotel-reservation.jpg" ALT="" WIDTH=210 HEIGHT=517 /></a>
+  <div id="content">
+    <aside>
+      <article>
+        <h4>Flight Bookings </h4>
+        <a href="http://www.plusibe.com/IBESTDWeb/FlightSearch_C.aspx?SC=KULMY28H2" class="booknow" target="_blank">booknow</a><span>or Call us <br>
+        +60377279287 <br>
+      </span> <br>
 
-</aside>
+    </article>			  
+    <a href="http://gbs.gta-travel.com/fe/enter.jsp?siteid=gemtr" target="_blank"><IMG SRC="images/hotel-reservation.jpg" ALT="" WIDTH=210 HEIGHT=517 /></a>
 
-<section>
-  
-<article>
-<h5 class="club-med"></h5>
-<ul>
-<li><a target="_blank" href="upload/pdf/Cherating%20ClubMed.pdf">Cherating Beach Malaysia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Cherating.pdf">more info</a></li>
+  </aside>
 
-<li><a target="_blank" href="upload/pdf/Bali%20ClubMed.pdf">Bali Indonesia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Bali.pdf">more info</a> </li>
+  <section>
 
-<li><a target="_blank" href="upload/pdf/Maldives ClubMed.pdf">Kani Maldives</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Kani.pdf">more info</a></li>
+    <article>
+      <h5 class="club-med"></h5>
+      <ul>
+        <li><a target="_blank" href="upload/pdf/Cherating%20ClubMed.pdf">Cherating Beach Malaysia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Cherating.pdf">more info</a></li>
 
-<li><a target="_blank" href="upload/pdf/LaAlbion Mauritius.pdf">La Plantation Albion Mauritius </a>, <a href="upload/pdf/Mauritius ClubMed.pdf" target="_blank">more info</a></li>
-			  
-<li><a target="_blank" href="upload/pdf/Phuket ClubMed.pdf">Phuket Thailand</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Phuket.pdf">more info</a></li>
-			  
-<li><a target="_blank" href="upload/pdf/Bintan Clubmed.pdf">Bintang Island Indonesia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Bintan.pdf">more info</a> </li>
-			  
-<li><a target="_blank" href="upload/pdf/Sahoro%20Japan.pdf">Sohoro Hokkaido Japan</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Sahoro.pdf">more info</a></li>
-			  
-<li><a target="_blank" href="upload/pdf/Yabuli China ClubMed.pdf">Yabuli Harbin China</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Yabuli.pdf">more info</a> </li>
-</ul>
-</article>		
-</section>
+        <li><a target="_blank" href="upload/pdf/Bali%20ClubMed.pdf">Bali Indonesia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Bali.pdf">more info</a> </li>
+
+        <li><a target="_blank" href="upload/pdf/Maldives ClubMed.pdf">Kani Maldives</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Kani.pdf">more info</a></li>
+
+        <li><a target="_blank" href="upload/pdf/LaAlbion Mauritius.pdf">La Plantation Albion Mauritius </a>, <a href="upload/pdf/Mauritius ClubMed.pdf" target="_blank">more info</a></li>
+
+        <li><a target="_blank" href="upload/pdf/Phuket ClubMed.pdf">Phuket Thailand</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Phuket.pdf">more info</a></li>
+
+        <li><a target="_blank" href="upload/pdf/Bintan Clubmed.pdf">Bintang Island Indonesia</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Bintan.pdf">more info</a> </li>
+
+        <li><a target="_blank" href="upload/pdf/Sahoro%20Japan.pdf">Sohoro Hokkaido Japan</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Sahoro.pdf">more info</a></li>
+
+        <li><a target="_blank" href="upload/pdf/Yabuli China ClubMed.pdf">Yabuli Harbin China</a> , <a target="_blank" href="upload/pdf/Club%20Med%20Yabuli.pdf">more info</a> </li>
+      </ul>
+    </article>		
+  </section>
 </div>
 </div>
 <footer>
-<p>Copyrighted &copy; by 2013 Gem Travel &amp; Tours Sdn. Bhd. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved</p>
+  <p>Copyrighted &copy; by 2013 Gem Travel &amp; Tours Sdn. Bhd. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved</p>
 </footer>
- <!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+<!-- jQuery -->
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+<!--script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script-->
 
-  <!-- FlexSlider -->
-  <script defer src="jquery.flexslider.js"></script>
+<!-- FlexSlider -->
+<script defer src="jquery.flexslider.js"></script>
 
-  <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
+<script type="text/javascript">
+  $(function(){
+    SyntaxHighlighter.all();
+  });
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: false,
+      itemWidth: 210,
+      itemMargin: 5,
+      pausePlay: true,
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
     });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        animationLoop: false,
-        itemWidth: 210,
-        itemMargin: 5,
-        pausePlay: true,
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
-</body>
-</html>
+  });
+</script>
+      </body>
+      </html>

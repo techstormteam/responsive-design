@@ -1,6 +1,11 @@
 @media screen and (max-width: 360px) {
-	nav ul li a {
-		font-size: 5px;
+	.main-nav, #navspace {
+		display: none;
+	}
+
+	.navbar {
+		display: block;
+		margin-bottom: 20px;
 	}
 
 	#marqueespace {

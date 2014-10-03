@@ -3,4 +3,13 @@
 		width: 738px;
 		height: 281px;
 	}
+
+	.main-nav, #navspace {
+		display: block;
+	}
+
+	.navbar {
+		display: none;
+		margin-bottom: 20px;
+	}
 }

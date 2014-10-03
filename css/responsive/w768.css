@@ -1,10 +1,33 @@
 @media screen and (max-width: 768px) {
-	nav {
+	.main-nav, #navspace {
+		display: block;
+	}
+
+	.navbar {
+		display: none;
+		margin-bottom: 20px;
+	}
+
+	h5.club-med, h5.enjoy-malaysia, h5.tour-p-china, h5.tour-p-aussie, h5.tour-p-asean, h5.tour-p-nz, h5.tour-p-asia, h5.tour-p-gem, h5.tour-p-jpn {
+		width: 100%;
+		background-size: 100% auto;
+	}
+
+	.tour-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.main-nav {
 		width: 100%;
 	}
 
-	nav ul {
+	.main-nav ul {
 		border-radius: 0;
+	}
+
+	.navbar {
+		width: 100%;
 	}
 
 	#navspace {

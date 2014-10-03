@@ -167,13 +167,13 @@ header {
 }
 
 /*----nav----*/
-nav {
+.main-nav {
 	width: 769px;
 	height: 44px;
 	margin: 0px auto;
 } 
 
-nav ul{
+.main-nav ul{
 	height:44px;
 	margin: 0px;
 	padding: 0px;
@@ -191,8 +191,8 @@ nav ul{
 	background-image: linear-gradient(to bottom, #000, #666);filter:		progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000, endColorstr=#666);	
 }
 
-nav ul li{height:29px; float:left;}
-nav ul li a{
+.main-nav ul li{height:29px; float:left;}
+.main-nav ul li a{
 	display:block;
 	color:#ffffff;
 	font-size:11px;
@@ -212,7 +212,7 @@ nav ul li a{
 	outline: 0 none;
 	text-transform: uppercase;
 }
-nav ul li a:hover{
+.main-nav ul li a:hover{
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 #navspace {
@@ -225,7 +225,7 @@ nav ul li a:hover{
 	margin-left: auto;
 }
 
-nav ul li a.blinkonoff {
+.main-nav ul li a.blinkonoff {
     animation-name: blinker;
     animation-duration: 3s;
     animation-timing-function: linear;
