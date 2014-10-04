@@ -1,4 +1,28 @@
+@media screen and (max-width: 447px) {
+
+}
+
 @media screen and (max-width: 480px) {
+	.wdesktop {
+		display: none;
+	}
+
+	.w768 {
+		display: none;
+	}
+
+	.w480 {
+		display: block;
+	}
+
+	.w360 {
+		display: none;
+	}
+
+	.w320 {
+		display: none;
+	}
+
 	.main-nav, #navspace {
 		display: none;
 	}
@@ -18,16 +42,49 @@
 
 	#content {
 		width: 100%;
-		border-radius: 0;
+		padding: 10px;
+	}
+
+	.header-wrapper {
+		margin: 0 10px;
+	}
+
+	.mobile-aside {
+		display: block;
+		padding: 10px;
+	}
+
+	#marqueespace {
+		height: 20px;
+	}
+
+	#content {
+		border-radius: 5px;
+		width: auto;
+		margin: 0 10px;
+	}
+
+	aside {
+		width: 95%;
 		padding: 0;
 	}
 
-	#content aside {
-		display: none;
+	aside img {
+		padding: 0px;
+		width: 100%;
+		height: auto;
 	}
 
 	header {
 		width: 100%;
+		/*padding: 0;*/
+		/*background-image: none;*/
+		background-size: 100%;
+		padding: 0;
+	}
+
+	.header-wrapper {
+		padding: 7px 1px;
 	}
 
 	section {
@@ -37,6 +94,7 @@
 	section > img {
 		width: 100%;
 		height: auto;
+		border-radius: 5px;
 	}
 
 	section article {
@@ -44,13 +102,19 @@
 	}
 
 	section article img {
-		width: 40%;
+		width: 39%;
 		height: auto;
 		margin: 0px 25px 0 0;
+		float: left;
+	}
+
+	.content-wrapper {
+		width: 50%;
+		float: right;
 	}
 
 	section article p {
-		width: 50%;
+		width: 100%;
 	}
 
 	footer {

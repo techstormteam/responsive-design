@@ -1,0 +1,29 @@
+@media screen and (max-width: 660px) {
+	h5.enjoy-malaysia {
+		height: 125px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	h5.enjoy-malaysia {
+		height: 115px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	h5.enjoy-malaysia {
+		height: 95px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	h5.enjoy-malaysia {
+		height: 72px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h5.enjoy-malaysia {
+		height: 58px;
+	}
+}

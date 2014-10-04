@@ -1,4 +1,24 @@
 @media screen and (max-width: 320px) {
+	.wdesktop {
+		display: none;
+	}
+
+	.w768 {
+		display: none;
+	}
+
+	.w480 {
+		display: none;
+	}
+
+	.w360 {
+		display: none;
+	}
+
+	.w320 {
+		display: block;
+	}
+
 	.main-nav, #navspace {
 		display: none;
 	}
@@ -8,7 +28,11 @@
 		margin-bottom: 20px;
 	}
 
+	#content {
+		width: 88%;
+	}
+
 	section article img {
-		width: 39%;
+		width: 37%;
 	}
 }

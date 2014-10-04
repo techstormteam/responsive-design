@@ -153,6 +153,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 /*----header----*/
 header {
+	box-sizing: content-box;
 	width: 748px;
 	margin-top: 0px;
 	margin-right: auto;
@@ -269,6 +270,7 @@ header {
 	margin-left: auto;
 }
 #content {
+	box-sizing: content-box;
 	width: 743px;
 	background-color: #D6C0AF;
 	border-radius:5px;
@@ -281,6 +283,7 @@ header {
 
 /*---- aside ----*/
 aside {
+	box-sizing: content-box;
 	width: 217px;
 	background-color: #E2D3C7;
 	border-radius:5px;

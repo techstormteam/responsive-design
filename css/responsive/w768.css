@@ -1,15 +1,63 @@
 @media screen and (max-width: 768px) {
-	.main-nav, #navspace {
+	.wdesktop {
+		display: none;
+	}
+
+	.w768 {
 		display: block;
 	}
 
-	.navbar {
+	.w480 {
 		display: none;
+	}
+
+	.w360 {
+		display: none;
+	}
+
+	.w320 {
+		display: none;
+	}
+
+	#marqueespace {
+		height: 20px;
+		width: 100%;
+	}
+
+	footer div {
+		display: block;
+		padding-left: 8px;
+		padding-bottom: 5px;
+	}
+
+	section {
+		padding: 10px;
+	}
+
+	.main-nav, #navspace {
+		display: none;
+	}
+
+	.navbar {
+		display: block;
 		margin-bottom: 20px;
+	}
+
+	header {
+		width: 100%;
+		/*padding: 0;*/
+		/*background-image: none;*/
+		background-size: 100%;
+		padding: 0;
+	}
+
+	.header-wrapper {
+		padding: 9px 17px;
 	}
 
 	h5.club-med, h5.enjoy-malaysia, h5.tour-p-china, h5.tour-p-aussie, h5.tour-p-asean, h5.tour-p-nz, h5.tour-p-asia, h5.tour-p-gem, h5.tour-p-jpn {
 		width: 100%;
+		height: 150px;
 		background-size: 100% auto;
 	}
 
@@ -35,8 +83,85 @@
 		padding: 0 20px;
 	}
 
+
+	
+
+	aside {
+		width: 97%;
+		padding: 0;
+	}
+
+	aside img {
+		padding: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	#content {
+		border-radius: 5px;
+		/*width: auto;*/
+		width: 95%;
+		margin: 0 10px;
+		padding: 10px;
+	}
+
+	.mobile-aside {
+		display: block;
+		padding: 10px;
+	}
+
+	#maincontent {
+		width: 100%;
+	}
+
 	header img {
 		width: 100%;
 		height: auto;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	section > img {
+		width: 100%;
+		height: auto;
+		border-radius: 7px;
+	}
+
+	section article {
+		width: 100%;
+	}
+
+	section article img {
+		width: 39%;
+		height: auto;
+		margin: 0px 25px 0 0;
+	}
+
+	section article p {
+		width: 50%;
+	}
+
+	footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	#content {
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	#content {
+		width: 93%;
+	}
+}
+
+@media screen and (max-width: 533px) {
+	#content {
+		width: 92%;
 	}
 }

@@ -1,4 +1,24 @@
 @media screen and (max-width: 360px) {
+	.wdesktop {
+		display: none;
+	}
+
+	.w768 {
+		display: none;
+	}
+
+	.w480 {
+		display: none;
+	}
+
+	.w360 {
+		display: block;
+	}
+
+	.w320 {
+		display: none;
+	}
+
 	.main-nav, #navspace {
 		display: none;
 	}
@@ -6,6 +26,10 @@
 	.navbar {
 		display: block;
 		margin-bottom: 20px;
+	}
+
+	#content {
+		width: 89%;
 	}
 
 	#marqueespace {
@@ -31,5 +55,9 @@
 
 	section article p:last-child {
 		float: left;
+	}
+
+	section article img {
+		width: 37%;
 	}
 }
